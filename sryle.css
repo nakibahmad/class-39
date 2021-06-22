@@ -1,0 +1,181 @@
+/* menu-section */
+.menu-section {
+    background: #22c3a3;
+    padding: 15px;
+}
+.logo{}
+.logo h2{}
+.logo h2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-menu {
+    position: relative;
+    top: 8px;
+    left: 0;
+}
+.header-menu ul {
+    list-style: none;
+}
+.header-menu ul li {
+    display: inline-block;
+}
+.header-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 10px;
+    font-size: 18px;
+}
+
+/* banner-section */
+.banner-section{
+    background: url(https://wallpapercave.com/wp/wp2009327.jpg)no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 170px;
+    position: relative;
+    z-index: -1;
+    
+}
+.banner-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(34, 195, 163, 0.755);
+    z-index: -1;
+}
+.banner-content{
+}
+.banner-content h1 {
+    font-size: 55px;
+}
+.banner-content p {
+    font-size: 25px;
+    margin: 30px 0px;
+}
+.banner-btn{
+    margin-top: 50px;
+}
+.banner-btn .btn {
+    padding: 7px 25px;
+    background: #22c3a3;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+
+/* service-section */
+.service-section{
+    padding: 80px 0px;
+}
+.service-header{}
+.service-header h2 {
+    margin-bottom: 25px;
+}
+.service-header p {
+    font-size: 18px;
+}
+
+.service-item {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.service-icon{}
+.service-icon i {
+    font-size: 30px;
+    color: #22c3a3;
+}
+.service-content{}
+.service-content h2 {
+    margin-top: 30px;
+    color: #606060;
+    font-size: 28px;
+    margin-bottom: 14px;
+}
+.service-content p {
+    color: #606060;
+}
+.service-header h3 {
+    margin-bottom: 18px;
+}
+hr {
+    color: #0abc9a;
+}
+
+hr:not([size]) {
+    height: 3px;
+}
+
+/* about-section */
+.about-section{
+    padding: 80px 0px;
+}
+
+.about-header{}
+.about-header h2{}
+.about-header p{}
+
+.about-img {
+    margin-left: 20px;
+}
+.about-img img{}
+.about-content {
+    padding-left: 20px;
+}
+.about-content h2{}
+.about-content p{}
+
+
+/* cotact-section */
+.cotact-section{
+}
+.contact-sections{
+    background:#f6f6f6;
+
+}
+.zanina-section {
+    background: #f6f6f6;
+    padding: 90px;
+}
+.contact-header{}
+.contact-header h2{}
+.contact-header p{}
+
+.contact-item{}
+.contact-icon{}
+.contact-icon i {
+    font-size: 25px;
+    color: #0abc9a;
+}
+.contact-p{}
+.contact-p p{}
+.second-row{
+    padding-top: 40px;
+}
+
+/* footer-section */
+.footer-section{
+   background: #0dbf9b;
+}
+.footer-icons {
+    margin-top: 20px;
+}
+.footer-icons ul{}
+.footer-icons ul li{
+    display: inline-block;
+}
+.footer-icons ul li a {
+    color: #fff;
+    display: inline-block;
+    padding: 0px 11px;
+}
+.footer-icons ul li a i{}
+
+.footer-bottom{
+    background: #000;
+}
+.footer-bottom p{}
